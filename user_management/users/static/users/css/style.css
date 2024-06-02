@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Form container */
+.form-container {
+    max-width: 600px; /* Set maximum width for the form container */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding to the form */
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Drop shadow effect */
+}
+
+/* Form input fields */
+.form-control {
+    width: 100%; /* Full width */
+    padding: 10px; /* Add padding */
+    margin-bottom: 20px; /* Add space between input fields */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Submit button */
+.btn-submit {
+    width: 100%; /* Full width */
+    padding: 10px; /* Add padding */
+    background-color: #007bff; /* Blue button color */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.btn-submit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error message */
+.error-message {
+    color: #ff0000; /* Red text color */
+    font-size: 14px; /* Small font size */
+    margin-top: 5px; /* Add space above error message */
+}
